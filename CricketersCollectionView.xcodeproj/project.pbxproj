@@ -14,6 +14,7 @@
 		D4DD139520807FB8009EEBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4DD139320807FB8009EEBE4 /* LaunchScreen.storyboard */; };
 		D4DD13A020807FB8009EEBE4 /* CricketersCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD139F20807FB8009EEBE4 /* CricketersCollectionViewTests.swift */; };
 		D4DD13AB20807FB8009EEBE4 /* CricketersCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD13AA20807FB8009EEBE4 /* CricketersCollectionViewUITests.swift */; };
+		D4DD13B920808430009EEBE4 /* CellCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD13B820808430009EEBE4 /* CellCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D4DD13A620807FB8009EEBE4 /* CricketersCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketersCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DD13AA20807FB8009EEBE4 /* CricketersCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketersCollectionViewUITests.swift; sourceTree = "<group>"; };
 		D4DD13AC20807FB8009EEBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DD13B820808430009EEBE4 /* CellCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D4DD137E20807FB8009EEBE4 = {
 			isa = PBXGroup;
 			children = (
+				D4DD13B820808430009EEBE4 /* CellCollection.swift */,
 				D4DD138920807FB8009EEBE4 /* CricketersCollectionView */,
 				D4DD139E20807FB8009EEBE4 /* CricketersCollectionViewTests */,
 				D4DD13A920807FB8009EEBE4 /* CricketersCollectionViewUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				D4DD138D20807FB8009EEBE4 /* ViewController.swift in Sources */,
 				D4DD138B20807FB8009EEBE4 /* AppDelegate.swift in Sources */,
+				D4DD13B920808430009EEBE4 /* CellCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
